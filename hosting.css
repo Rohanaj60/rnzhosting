@@ -1,0 +1,132 @@
+html,body{
+height:100vh;
+color:white;
+font-family: 'EB Garamond', serif;
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-size:15px; 
+}
+.container{
+/*	border:2px solid red;*/
+	height:60vh;
+background-color:#030055;
+}
+.ft{
+	/*	border:2px solid green;*/
+		height:40vh; 
+		text-align: center;
+
+}
+input[type=text]{
+	border-radius:23px;
+	padding:10px;
+	width:322px; 
+}
+select{
+	border-radius:23px;
+		padding:10px;
+	width:68px; 
+	font-size:12px;
+}
+button{
+	border-radius:23px;
+		padding:10px;
+		background-color:white;
+}
+div#border{
+	display:flex;
+/*	border:1px solid grey;*/
+	padding:5px;
+	flex-direction:row;
+	justify-content: center;
+		width:80vh;
+	margin:auto;
+	border-radius: 23px;
+	background-color:#030055;
+
+
+}
+*{
+
+	outline:0;
+}
+.nav{
+	float:right;
+}
+.nav a{
+	text-decoration: none;
+	color:white;
+padding:25px;
+float:left;
+	}
+
+.intro{
+/*	border:2px solid white;*/
+	height:8vh;
+	font-size: 15px;
+}
+.ph{
+	float: left;
+		position:absolute;
+		left:30px;
+}
+.login{
+	position:absolute;
+	right:30px;
+	float:right;
+}
+.intro1{
+/*	border:2px solid white;*/
+	height:10vh;
+	
+}
+.intro1 h1{
+
+	float:left;
+	position: absolute;
+	left:30px;
+	align-items: center;
+	margin-top: 10px;
+	font-family: 'Girassol', cursive;
+}
+.nav a:hover{
+	color:Yellow;
+}
+.text{
+/*	border:2px solid white;*/
+	width:50vw;
+	float:left;
+}
+.img{
+/*border:2px solid white;*/	
+width:40vw;
+	float:right;
+	background-image: url("1.png");
+	height:60%;
+}
+.text{
+	text-align: center;
+}
+button:hover{
+	background-color:#545cf0; 
+}
+.login > a{
+	text-decoration: none;
+	color:white;
+}
+button#start{
+width:174px;
+background-color: black;
+color:white;
+}
+button#start:hover{
+width:174px;
+background-color: black;
+color:grey;
+}
+footer{
+	background-color: grey;
+	color:black;
+	margin-top:100px;
+}
